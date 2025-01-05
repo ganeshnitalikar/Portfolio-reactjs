@@ -11,7 +11,7 @@ const Projects = () => {
           return (
             <div
               key={index}
-              className="lg:p-10 flex flex-col items-center mb-5 border-t
+              className="lg:p-10 flex flex-col items-center my-1 
               jtext-center lg:flex-row min-w-full lg:items-center lg:text-left 
               lg:justify-center"
             >

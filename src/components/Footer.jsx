@@ -4,7 +4,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-transparent text-white py-6 mt-20">
+    <footer className="bg-transparent text-white py-6 mt-5">
       <div className="container mx-auto text-center">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Ganesh Nitalikar. All rights
