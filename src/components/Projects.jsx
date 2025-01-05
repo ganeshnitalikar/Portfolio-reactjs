@@ -7,23 +7,30 @@ const Projects = () => {
       <h2 className="my-20 text-center text-4xl">Projects</h2>
       <div>
         {PROJECTS.map((project, index) => {
+          console.log(project.image);
           return (
             <div
               key={index}
-              className="mb-8 flex flex-col items-center text-center lg:flex-row lg:items-start lg:text-left lg:justify-center"
+              className="lg:p-10 flex flex-col items-center mb-5 border-t
+              jtext-center lg:flex-row min-w-full lg:items-center lg:text-left 
+              lg:justify-center"
             >
-              <div className="w-full lg:w-1/4">
+              <div className="w-full  lg:w-1/4 lg:mr-8 pt-10 ">
                 <img
                   src={project.image}
-                  height={150}
-                  width={150}
                   alt={project.title}
-                  className="mb-6 mx-auto rounded"
+                  className="mb-6 rounded-2xl  mx-auto max-w-full h-auto "
                 />
               </div>
               <div className="w-full max-w-xl lg:w-3/4">
-                <h6 className="mb-2 font-semibold">{project.title}</h6>
-                <p className="mb-4 text-neutral-400">{project.description}</p>
+                <a href={project.link} target="_blank">
+                  <h6 className="mb-2 font-semibold underline">
+                    {project.title}
+                  </h6>
+                </a>
+                <p className="mb-4 text-neutral-400 text-justify">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap items-center justify-center lg:justify-start">
                   {project.technologies.map((tech, index) => {
                     return (

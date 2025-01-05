@@ -1,42 +1,48 @@
-export const HERO_CONTENT = `I am a dedicated software developer with a passion for building intuitive and efficient applications. Proficient in front-end technologies like React and backend systems using Node.js and Firebase, I thrive on creating seamless user experiences and scalable solutions. With experience in crafting diverse projects ranging from e-commerce platforms to real-time collaborative tools, I aim to bring innovative ideas to life through clean code and thoughtful design. My goal is to continuously learn and contribute to impactful projects that solve real-world challenges`;
+import project1 from '../../public/ReelRaveMockUp.png'
+import project2 from '../../public/ChatterMockUp.png'
+import project3 from '../../public/project3.jpeg'
+import project4 from '../../public/project4.png'
+
+export const HERO_CONTENT = `I’m a Computer Engineering graduate from Sinhgad Institute of Technology and Science, Narhe, Pune, where I maintained a strong academic record with a CGPA of 8.9. My time at college not only provided me with a solid technical foundation but also shaped my problem-solving skills and ability to work collaboratively. I believe in balancing academics with real-world experience, and that mindset has driven my passion for continuous learning and growth in the field of software development.`;
 
 export const ABOUT_PARA1 = `Hi, I’m Ganesh Nitalikar, a passionate software developer with a knack for solving complex problems through code. As a Computer Engineering graduate with hands-on experience in technologies like Java, React, and Flutter, I enjoy building innovative solutions that are both functional and visually appealing. My journey in software development has been shaped by projects that span from mobile apps to full-stack web applications, each adding a unique perspective to my skillset.`;
-
-export const ABOUT_PARA2 = `I specialize in crafting user-centric applications with modern front-end frameworks like React and backend technologies such as Node.js, Firebase, and MongoDB. My portfolio includes an e-commerce platform with secure payment integration, a real-time collaborative IDE, and mobile apps like ReelRave and Chatter, which showcase my ability to blend creativity with technical precision. I thrive on the challenge of turning ideas into scalable, impactful solutions that improve user experiences.`
-export const ABOUT_PARA3 = `Beyond coding, I’m always eager to learn and grow. Whether it’s exploring new tools, revisiting concepts, or brainstorming innovative ideas, I believe in continuous improvement. My ultimate goal is to contribute to projects that not only push the boundaries of technology but also make a tangible difference in people’s lives. `
-
+export const ABOUT_PARA2 = `My technical skills include proficiency in frontend technologies like React and JavaScript, as well as mobile app development with Flutter. I’m also well-versed in Java for backend development and use Firebase for real-time applications and database management. In addition, I actively use Git and GitHub for version control, collaborating with teams on projects, and ensuring smooth development workflows. My diverse skill set allows me to approach challenges from multiple angles and find the best solutions`
+export const ABOUT_PARA3 = `I’m always eager to contribute to projects and take on new challenges. Whether it’s through internships, personal projects, or collaborations, I actively seek opportunities to apply my knowledge and learn from others. I believe in the power of hands-on experience and strive to stay updated with the latest technologies and industry trends. I’m committed to growing as a developer, and I’m excited to take on roles where I can continue to contribute and make a meaningful impact.`
 
 export const PROJECTS = [
   {
-    title: "Project 1",
-    image: "https://via.placeholder.com/150", // Example image URL
+    title: "ReelRave",
+    image: project1,
+    link : "https://github.com/ganeshnitalikar/ChatApp-in-Flutter-using-Firebase",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "ReelRave is a short video-sharing platform inspired by TikTok. It allows users to create and upload videos with features such as liking, commenting, and sharing. The app ensures smooth performance through video compression and supports user authentication for a personalized experience. ReelRave is designed to provide an engaging and interactive platform for creators and viewers alike.",
+    technologies: ["Flutter", "Firebase"],
   },
   {
-    title: "Project 2",
-    image: "https://via.placeholder.com/150", // Example image URL
+    title: "Chatter",
+    image: project2,
+    link: "https://github.com/ganeshnitalikar/ReelRave",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Chatter is a modern mobile chat application designed to connect users seamlessly. Built with Flutter and Firebase, the app supports features like user authentication, real-time messaging, and user search functionality. It provides a smooth and intuitive user experience, enabling people to stay connected with friends and family in a secure and reliable manner.",
+    technologies: ["Flutter", "Firebase"],
   },
   {
-    title: "Project 3",
-    image: "https://via.placeholder.com/150", // Example image URL
+    title: "CodeSphere",
+    image: "https://placehold.co/600x400/orange/white",
+    link: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "CodeSphere is an online IDE built using the MERN stack, providing users with an efficient environment for coding and testing. The platform includes features such as user authentication, secure API integration, and live output display on the right side of the editor. With a clean and user-friendly interface, CodeSphere empowers developers to write, debug, and execute code directly in the browser.",
+    technologies: ["MongoDB", "Express.js", "React", "Node.js"],
   },
   {
-    title: "Project 4",
-    image: "https://via.placeholder.com/150", // Example image URL
+    title: "Portfolio",
+    image: project4,
+    link: "https://ganeshnitalikar.vercel.app/",  
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "This Portfolio App is a sleek and responsive personal website built using React, Tailwind CSS, and JavaScript. It showcases the developer's skills, projects, and professional experience in a visually appealing layout. Designed with modern UI principles, the app provides an excellent way to present oneself to potential employers and collaborators.",
+    technologies: ["React", "Tailwind CSS", "JavaScript"],
   },
 ];
-
 
 export const CONTACT = {
   address: "Pune,India",

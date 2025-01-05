@@ -22,14 +22,14 @@ const Hero = () => {
   };
   return (
     <div className="border-b border-white  pb-4 lg:mb-36">
-      <div className="flex flex-wrap items-center">
+      <div className="flex flex-wrap items-center justify-between">
         <div className="w-full lg:w-1/2 ">
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col items-center lg:items-start ">
             <motion.h1
               variants={container(0.25)}
               initial="hidden"
               animate="visible"
-              className="pb-16 font-thin text-6xl tracking-tight lg:text-6xl"
+              className="pb-16 font-thin text-6xl tracking-tight lg:text-6xl sm:text-center"
             >
               Ganesh Nitalikar
             </motion.h1>
@@ -55,14 +55,14 @@ const Hero = () => {
               transition={{ duration: 0.4, delay: 0.6 }}
               type="button"
               onClick={handleResumeDownload}
-              class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-4"
+              className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-4"
             >
               See Resume
             </motion.button>
           </div>
         </div>
-        <div className="w-full  lg:w-1/2 lg:p-8 ">
-          <div className="flex justify-center items-center">
+        <div className="w-full  lg:w-1/2 xl:w-[40%]  lg:p-8 ">
+          <div className="flex justify-end items-center ">
             <motion.img
               initial={{ x: 200, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
