@@ -1,7 +1,5 @@
 import project1 from '../../public/ReelRaveMockUp.png'
 import project2 from '../../public/ChatterMockUp.png'
-import project3 from '../../public/project3.jpeg'
-import project4 from '../../public/project4.png'
 
 export const HERO_CONTENT = `I’m a Computer Engineering graduate from Sinhgad Institute of Technology and Science, Narhe, Pune, where I maintained a strong academic record with a CGPA of 8.9. My time at college not only provided me with a solid technical foundation but also shaped my problem-solving skills and ability to work collaboratively. I believe in balancing academics with real-world experience, and that mindset has driven my passion for continuous learning and growth in the field of software development.`;
 
